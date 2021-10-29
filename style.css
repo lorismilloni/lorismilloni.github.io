@@ -1,0 +1,42 @@
+h1 {
+    color: #003049;
+    font-family: 'Roboto Mono', monospace; <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&family=Source+Code+Pro&display=swap" rel="stylesheet">
+}
+
+h2, h3 {
+    color: #D62828;
+}
+
+p {
+    font-family: 'Source Code Pro', monospace;  
+}
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    background-color: #EAE2B7;
+    font-size: 16px;
+}
+
+ul.a {
+    list-style-type: square;
+}
+
+ol.a {
+    color: #FCBF49;
+}
+
+.li-a {
+    font-size: 1.1em;
+}
+
+.li-b {
+    font-size: 0.9em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
