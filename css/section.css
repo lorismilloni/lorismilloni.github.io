@@ -47,6 +47,10 @@
     width: 25em;
 }
 
+.main-about {
+    font-size: 1.2em;
+}
+
 .main-p p {
     text-align: justify;
 }
