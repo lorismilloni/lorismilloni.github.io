@@ -5,6 +5,7 @@
     min-width: fit-content;
     margin: auto;
     flex-flow: row wrap;
+    max-width: 1000px;
 }
 
 .header-button {

@@ -1,12 +1,13 @@
 .main-section {
     background-color: white;
     border: 0.3em solid black;
-    margin: 3em 4em;
+    margin: 3em auto;
     padding: 1em;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     min-width: fit-content;
+    max-width: 1080px;
 }
 
 .main-section h2 {

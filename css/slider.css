@@ -5,7 +5,7 @@
 }
 
 .slides-container {
-    height: calc(60vh - 2rem);
+    height: calc(50vh - 2rem);
     width: 100%;
     display: flex;
     list-style: none;
@@ -15,6 +15,7 @@
     scroll-behavior: smooth;
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    max-width: 1000px;
 }
 
 /* WebKit */
@@ -22,7 +23,6 @@
     width: 0;
     height: 0;
 }
-
 
 #slider-button-one {
     background-color: #B300B3;
