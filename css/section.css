@@ -74,15 +74,27 @@
 }
 
 #one {
-    box-shadow: 10px 10px 2px #FFF200, 20px 20px black;
+    box-shadow: 10px 8px #FFF200;
+}
+
+#one:hover {
+    box-shadow: 10px 8px #FFF200, 20px 18px black;
 }
 
 #two {
-    box-shadow: 10px 10px 2px #b300b3, 20px 20px black;
+    box-shadow: 10px 8px #b300b3;
+}
+
+#two:hover {
+    box-shadow: 10px 8px #b300b3, 20px 18px black;
 }
 
 #three {
-    box-shadow: 10px 10px 2px #004efe, 20px 20px black;
+    box-shadow: 10px 8px #004efe;
+}
+
+#three:hover {
+    box-shadow: 10px 8px #004efe, 20px 18px black;
 }
 
 .slider-section {
