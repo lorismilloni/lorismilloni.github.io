@@ -5,3 +5,19 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+@media (min-width: 670px) {
+    .recent-image {
+        display: none;
+    }
+    .slide-element div {
+        width: 15em;
+    }
+    .slider-button {
+        width: 5em;
+        height: auto;
+    }
+    #slides-container {
+        height: 100%;
+    }
+}
+
