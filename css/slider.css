@@ -5,9 +5,10 @@
 }
 
 .slides-container {
-    height: calc(60vh - 5rem);
+    height: calc(100vh - 5rem);
     width: 100%;
     display: flex;
+    align-items: center;
     list-style: none;
     margin: 0;
     padding: 0;
