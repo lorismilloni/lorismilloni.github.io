@@ -1,35 +1,47 @@
 .header {
-    position: relative;
     display: flex;
-    justify-content: center;
-    min-width: fit-content;
-    margin: auto;
     flex-flow: row wrap;
-    max-width: 1000px;
+    justify-content: center;
+    list-style: none;
+    margin: auto;
+    min-width: fit-content;
+    position: relative;
 }
 
-.header-button {
+.header-item {
     background-color: #FFF200;
     border: 0.3em solid black;
     box-sizing: border-box;
     color: black;
-    padding: 0.10em 1.2em;
-    margin: 0.10em;
     display: inline-block;
     font-weight: 500;
+    margin: 0.10em;
+    padding: 0.10em 1.2em;
     text-align: center;
 }
 
 .header div:hover {
     background-color: #004efe;
     box-shadow: 0.5em 0.4em black;
-    transition: all 0.2s ease-in;
     color: white;
+    transition: background-color 0.2s ease-in, color 0.2s ease-in;
 }
 
 .header-button a {
-    text-decoration: none;
     color: black;
+    text-decoration: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .header-menu {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .header-item {
+        margin: 0.5em 0;
+    }
 }
 
 
