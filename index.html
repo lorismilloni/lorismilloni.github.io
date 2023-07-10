@@ -69,7 +69,7 @@
 
             <!-- One -->
             <section class="main-section" id="one">
-                <div id="main-header">
+                <div>
                     <header>
                         <h2>Here you can see my portfolio, trajectory, micro blog and ask me to develop your idea</h2>
                     </header>
@@ -80,10 +80,10 @@
                             <img id="frontpage-photo" src="./images/foto.png" alt="profile photo with text: can't wait to work">
                         </figure>
                     </div>
-					<div id="main-p">
+					<div class="main-p">
 						<p>I begin my trajectory in 2021 in a web development course, and now I'm majoring in Information Systems at State University of Tocantins (UNITINS. Brazil). Where I study to develop, plan, analyze, evaluate and manage modern information technologies applied to administrative and industrial areas, in public and private organizations, through technical, managerial, ethical and entrepreneurial training.</p>
                         <a href="#three">
-                            <div id="main-button">
+                            <div class="main-button">
                                 Learn More
                             </div>
                         </a>
@@ -96,24 +96,48 @@
 
             <!-- Two -->
             <section class="main-section" id="two">
-                <h2>Recent Work</h2>
-				<div class="slider-wrapper slider-section">
+                <div>
+                    <header>
+                        <h2>Recent Work</h2>
+                    </header>
+                </div>
+				<div class="slider-wrapper main-div">
 					<ul class="slides-container" id="slides-container">
-						<li class="slide slider-section">
-							<a href=""><img class="slide-image" src="images/1.png" alt="image from app, frontpage"/></a>
-							<div>
-								<h3>Ubirits</h3>
-								<p>A beer delivery app, backend and frontend. Built within a two week bootcamp with other three partners. We learned how to work as a team and used Kanban to organize our tasks. It's created with JavaScript, React, Reactstrap for styling and Sequelize for managing the database using MVC architecture.</p>
-							</div>
+						<li class="slide">
+                            <div class="slide-element">
+                                <div>
+                                    <img src="images/1.png" alt="image from app, frontpage"/>
+                                </div>
+                                <div class="main-p">
+                                    <h2>Ubirits</h2>
+                                    <p>A beer delivery app, backend and frontend. Built within a two week bootcamp with other three partners. We learned how to work as a team and used Kanban to organize our tasks. It's created with JavaScript, React, Reactstrap for styling and Sequelize for managing the database using MVC architecture.</p>
+                                    <a href="">
+                                        <div class="main-button" id="slider-button-one">
+                                            Learn More
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
 						</li>
 						<li class="slide">
-							<a href="" class="slide-image" ><img src="images/2.png" alt="image from app, search page" /></a>
-							<h3>Copy Tunes</h3>
-							<p>A web application to listen to music requested from iTunes API using React Components. Here I learned how to use React Components like Link, Redirect, Route, Browser Router and Switch, and also used setState function and state and lifecycle.</p>
+                            <div class="slide-element">
+                                <div>
+                                    <img src="images/2.png" alt="image from app, search page"/>
+                                </div>
+                                <div class="main-p">
+                                    <h2>Copy Tunes</h2>
+                                    <p>A web application to listen to music requested from iTunes API using React Components. Here I learned how to use React Components like Link, Redirect, Route, Browser Router and Switch, and also used setState function and state and lifecycle.</p>
+                                    <a href="">
+                                        <div class="main-button" id="slider-button-two">
+                                            Learn More
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
 						</li>
 					</ul>
-					<button class="slide-arrow main-button" id="slide-arrow-prev">&#8249;</button>
-					<button class="slide-arrow main-button" id="slide-arrow-next"> &#8250;</button>
+                    <button class="slide-arrow" id="slide-arrow-prev">&#8249;</button>
+                    <button class="slide-arrow" id="slide-arrow-next">&#8250;</button>
 				</div>
             </section>
 

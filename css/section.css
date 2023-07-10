@@ -39,7 +39,7 @@
     transition: all 0.2s;
 }
 
-#main-p {
+.main-p {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -47,25 +47,24 @@
     width: 25em;
 }
 
-#main-p p {
+.main-p p {
     text-align: justify;
 }
 
-#main-button {
+.main-button {
     background-color: black;
     cursor: pointer;
     align-self: center;
-    width: 15em;
+    width: 10em;
     display: inline-block;
     padding: 1em 0;
-    border-radius: 0.25em;
+    border-radius: 0.4em;
     margin: 0 0.3em 1em 0.3em;
     box-sizing: border-box;
     color: white;
-    border: 0.1em solid #B5FF47;
 }
 
-#main-button:hover {
+.main-button:hover {
     background-color: #B5FF47;
     border: 0.05em solid black;
     box-shadow: 0.5em 0.4em black;
@@ -97,18 +96,3 @@
     box-shadow: 10px 8px #004efe, 20px 18px black;
 }
 
-.slider-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-bottom: 50px;
-}
-
-.slider-section img {
-    width: 400px;
-}
-
-.slider-section p {
-    text-align: justify;
-    padding-right: 20px;
-}
