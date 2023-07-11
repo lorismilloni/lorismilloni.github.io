@@ -89,4 +89,20 @@
     box-shadow: 10px 8px #004efe, 20px 18px black;
 }
 
+#about-icons {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
 
+#about-icons-links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+#about-icons-links img {
+    margin: 0.6em;
+}
