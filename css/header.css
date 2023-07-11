@@ -20,14 +20,14 @@
     text-align: center;
 }
 
-.header div:hover {
+.header li:hover {
     background-color: #004efe;
     box-shadow: 0.5em 0.4em black;
     color: white;
     transition: background-color 0.2s ease-in, color 0.2s ease-in;
 }
 
-.header-button a {
+.header-item a {
     color: black;
     text-decoration: none;
 }
