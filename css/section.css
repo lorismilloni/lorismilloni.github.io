@@ -81,23 +81,12 @@
     box-shadow: 10px 8px #FFF200, 20px 18px black;
 }
 
-#abstract:hover {
-    box-shadow: 10px 8px #FFF200;
-}
-
 #recent-work {
     box-shadow: 10px 8px #b300b3, 20px 18px black;
-}
-
-#recent-work:hover {
-    box-shadow: 10px 8px #b300b3;
 }
 
 #three {
     box-shadow: 10px 8px #004efe, 20px 18px black;
 }
 
-#three:hover {
-    box-shadow: 10px 8px #004efe;
-}
 

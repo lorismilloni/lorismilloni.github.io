@@ -1,5 +1,4 @@
 .slider-wrapper {
-    margin: 1rem;
     overflow: hidden;
     position: relative;
 }
@@ -83,5 +82,10 @@
     border: 0.2em solid white;
     color: white;
     transition: all 0.14s;
+}
+
+#ubirits, #copy-tunes {
+    margin: 1em 1em 1em 4em;
+    padding: 1em;
 }
 
