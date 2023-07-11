@@ -1,0 +1,49 @@
+#blog-div {
+    background-color: white;
+    border: 0.3em solid black;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    min-width: fit-content;
+    margin: 3em auto 6em auto;
+    max-width: 55em;
+    box-shadow: -0.6em 0.9em #BC372C, -0.9em 1.1em black, -0.9em 0.6em black, -0.4em 1.1em black, -1.5em 2em #BC372C, -1.8em 2.2em black, -1.8em 1.7em black, -1.3em 2.2em black;
+}
+
+/* para editar: yellow: esquerda, blue: esquerda e cima, green: direita e baixo */
+/* todas black, mas a ordem é a mesma pra alterar */
+
+#color-header {
+    background-color: #BC372C;
+    border-bottom: 0.3em solid black;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 3em;
+    align-items: center;
+}
+
+.color-header-buttons {
+    background-color: whitesmoke;
+    border: 0.3em solid black;
+    height: 1em;
+    margin-left: 1em;
+    width: 1em;
+    border-radius: 1em;
+}
+
+.blog-page {
+    padding: 0.3em 2em 0.5em 2em;
+}
+
+.blog-page h2 {
+    font-size: 2em;
+}
+
+.blog-page p {
+    font-size: 1em;
+}
+
+.blog-page a {
+    text-decoration: none;
+    color: #004efe;
+}
