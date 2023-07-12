@@ -1,1 +1,1 @@
-document.write('<header><nav><ul class="header"><li class="header-item"><p>Loris Simon</p></li><a href="#recent-work"><li class="header-item"><p>Recent work</p></li></a><a href="#three"><li class="header-item"><p>About me</p></li></a><a href="./blog.html"><li class="header-item"><p>Micro blog</p></li></a><a href=""><li class="header-item"><p>CV</p></li></a></ul></nav></header>');
+document.write('');

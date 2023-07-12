@@ -1,1 +1,1 @@
-document.write('<footer class="footer"><p>2023. Created by Loris with JS, HTML and CSS.</p></footer>');
+document.write('');
