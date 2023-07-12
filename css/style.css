@@ -12,5 +12,9 @@ body {
     .main-section, .slide-element div {
         width: 14em;
     }
+    .slide {
+        width: 135px;
+        font-size: 0.9em;
+    }
 }
 
