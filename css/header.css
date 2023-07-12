@@ -9,10 +9,10 @@
 }
 
 .header-item {
-    background-color: #FFF200;
+    background-color: #47815A;
     border: 0.3em solid black;
     box-sizing: border-box;
-    color: black;
+    color: whitesmoke;
     display: inline-block;
     font-weight: 500;
     margin: 0.10em;
@@ -21,14 +21,14 @@
 }
 
 .header li:hover {
-    background-color: #004efe;
+    background-color: #0E5E6F;
     box-shadow: 0.5em 0.4em black;
     color: white;
     transition: background-color 0.2s ease-in, color 0.2s ease-in;
 }
 
 .header-item a {
-    color: black;
+    color: whitesmoke;
     text-decoration: none;
 }
 

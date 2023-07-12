@@ -58,10 +58,10 @@
 
 .main-button {
     align-self: center;
-    background-color: black;
+    background-color: #586794;
     border-radius: 0.4em;
     box-sizing: border-box;
-    color: white;
+    color: black;
     cursor: pointer;
     display: inline-block;
     margin: 0 0.3em 1em 0.3em;
@@ -70,23 +70,23 @@
 }
 
 .main-button:hover {
-    background-color: #B5FF47;
+    background-color: #47815A;
     border: 0.05em solid black;
     box-shadow: 0.5em 0.4em black;
-    color: black;
+    color: whitesmoke;
     transition: all 0.2s ease-in;
 }
 
 #abstract {
-    box-shadow: 10px 8px #FFF200, 20px 18px black;
+    box-shadow: 10px 8px #576793, 20px 18px black;
 }
 
 #recent-work {
-    box-shadow: 10px 8px #b300b3, 20px 18px black;
+    box-shadow: 10px 8px #D9A97D, 20px 18px black;
 }
 
 #three {
-    box-shadow: 10px 8px #004efe, 20px 18px black;
+    box-shadow: 10px 8px #E24E3A, 20px 18px black;
 }
 
 #about-icons {

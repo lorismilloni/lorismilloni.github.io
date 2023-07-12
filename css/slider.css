@@ -24,14 +24,13 @@
 }
 
 #slider-button-one {
-    background-color: #B300B3;
+    background-color: #D9A97D;
     border: 0.1em solid black;
 }
 
 #slider-button-two {
-    background-color: #B5FF47;
+    background-color: #D9A97D;
     border: 0.1em solid black;
-    color: black;
 }
 
 .slide {
@@ -45,7 +44,7 @@
 }
 
 .slide-arrow {
-    background-color: #FFF200;
+    background-color: #47815A;
     border: 0.1em solid black;
     border-radius: 2rem;
     bottom: 0;
@@ -66,7 +65,7 @@
 
 #slide-arrow-prev:hover {
     background-color: black;
-    border: 0.2em solid white;
+    border: 0.1em solid white;
     color: white;
     transition: all 0.14s;
 }
