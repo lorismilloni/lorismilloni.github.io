@@ -106,3 +106,8 @@
 #about-icons-links img {
     margin: 0.6em;
 }
+
+.about-paragraphs {
+    font-size: 1.1em;
+    margin: 0 0.3em 0 0.3em;
+}
