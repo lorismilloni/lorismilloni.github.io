@@ -23,14 +23,8 @@
     width: 0;
 }
 
-#slider-button-one {
+#slider-button {
     background-color: #D9A97D;
-    border: 0.1em solid black;
-}
-
-#slider-button-two {
-    background-color: #D9A97D;
-    border: 0.1em solid black;
 }
 
 .slide {
