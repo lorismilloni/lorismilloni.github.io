@@ -23,11 +23,9 @@ function loadPost(element) {
         .then(response => response.text())
         .then(html => {
             box.innerHTML = html;
-            return false;
         })
         .catch(error => {
             console.log(error);
-            return true;
     });
 }
 
