@@ -3,7 +3,7 @@
 function loadPage() {
     const box = document.getElementById('box');
 
-    fetch('home.html')
+    fetch('blog-home.html')
         .then(response => response.text())
         .then(html => {
             box.innerHTML = html;
