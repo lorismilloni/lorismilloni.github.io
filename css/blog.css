@@ -43,7 +43,13 @@
     font-size: 1em;
 }
 
+.blog-page a {
+    color: #586794;
+    text-decoration: none;
+}
+
 .post-link {
     color: #586794;
     cursor: pointer;
 }
+
