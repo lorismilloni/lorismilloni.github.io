@@ -43,7 +43,7 @@
     font-size: 1em;
 }
 
-.blog-page a {
-    text-decoration: none;
+.post-link {
     color: #586794;
+    cursor: pointer;
 }

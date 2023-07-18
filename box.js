@@ -18,16 +18,16 @@ loadPage();
 function loadPost(element) {
     const id = element.id;
     const link = `./posts/post-${id}.html`
-    console.log(link);
-    console.log(typeof(link));
 
     fetch(link)
         .then(response => response.text())
         .then(html => {
             box.innerHTML = html;
+            return false;
         })
         .catch(error => {
             console.log(error);
+            return true;
     });
 }
 
